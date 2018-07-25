@@ -40,7 +40,7 @@
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "commentsreplies": [
-    { "id": 1, "body": "some comment", "commentid": 1 },
-    { "id": 2, "body": "some comment", "commentid": 2 }
+    { "id": 1, "body": "some comment reply", "commentid": 1 },
+    { "id": 2, "body": "some comment reply 2", "commentid": 2 }
   ]
 }
