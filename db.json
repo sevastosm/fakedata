@@ -2,45 +2,93 @@
   "posts": [
     {
       "id": 1,
-      "UserID": "user1",
+      "userid": "user1",
+      "useravatar": "user1",
       "title": "Post 1",
       "text":
         "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
       "location": "Patra",
       "dateadded": "2017/8/9",
       "likes": 3,
-      "imageurl":"https://picsum.photos/200/300/?random"
+      "imageurl":"https://picsum.photos/200/200/?random"
 
     },
     {
       "id": 2,
-      "UserID": "user3",
+      "userid": "user3",
+      "useravatar": "http://greece-360.com/html-designs/images/members/anna_faber-60.jpg",
       "title": "Post 2",
       "text":
         "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
       "location": "Patra",
       "dateadded": "2017/8/9",
       "likes": 3,
-      "imageurl":"https://picsum.photos/200/300/?random"
+      "imageurl":"https://picsum.photos/200/200/?random"
     },
     {
       "id": 3,
-      "UserID": "user2",
+      "userid": "user2",
+      "useravatar": "http://greece-360.com/html-designs/images/members/JoCross-60.jpg",
       "title": "Post 3",
       "text":
         "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
       "location": "Patra",
       "dateadded": "2017/8/9",
       "likes": 3,
-      "imageurl":"https://picsum.photos/200/300/?random"
-    }
+      "imageurl":"https://picsum.photos/200/200/?random"
+    },
+    {
+        "id": 4,
+        "userid": "user2",
+        "useravatar": "https://randomuser.me/api/portraits/men/8.jpg",
+        "title": "Post 4",
+        "text":
+          "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
+        "location": "Patra",
+        "dateadded": "2017/8/9",
+        "likes": 3,
+        "imageurl":"https://picsum.photos/200/200/?random"
+      },
+      {
+        "id":5,
+        "userid": "user3",
+        "useravatar": "http://greece-360.com/html-designs/images/members/stevenHall-60.jpg",
+        "title": "Post 5",
+        "text":
+          "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
+        "location": "Patra",
+        "dateadded": "2017/8/9",
+        "likes": 3,
+        "imageurl":"https://picsum.photos/200/200/?random"
+      },
+      {
+        "id": 6,
+        "userid": "user3",
+        "useravatar": "http://greece-360.com/html-designs/images/members/stevenHall-60.jpg",
+        "title": "Post 6",
+        "text":
+          "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
+        "location": "Patra",
+        "dateadded": "2017/8/9",
+        "likes": 3,
+        "imageurl":"https://picsum.photos/200/200/?random"
+      }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "Bacon ipsum dolor amet brisket hamburger fatback bresaola ham", "postId": 1 ,"likes": 3},
+    { "id": 2, "body": "Bacon ipsum dolor amet capicola ham hock meatball", "postId": 1 ,"likes": 3},
+    { "id": 3, "body": "Ex ground round dolore irure, ribeye dolore veniam alcatra int", "postId": 3,"likes": 3 },
+    { "id": 4, "body": "Salami adipisicing venison, ribeye capicola sirloin", "postId": 6,"likes": 3 },
+    { "id": 5, "body": "Chuck spare ribs leberkas short.", "postId": 5 },
+    { "id": 6, "body": "Pariatur prosciutto anim sed commodo reprehenderit.", "postId": 4,"likes": 3 },
+    { "id": 7, "body": "Turkey mollit kevin eu.", "postId": 5 ,"likes": 3}
   ],
-  "commentsreplies": [
-    { "id": 1, "body": "some comment reply", "commentid": 1 },
-    { "id": 2, "body": "some comment reply 2", "commentid": 2 }
+  "commentreplies": [
+    { "id": 1, "body": "Nice !!", "commentid": 1 },
+    { "id": 2, "body": "Nice !! Nice !!", "commentid": 2 ,"likes": 3},
+    { "id": 3, "body": "Yeah Dude!", "commentid": 1 ,"likes": 3},
+    { "id": 4, "body": "Booommm !!!!", "commentid": 2 ,"likes": 3},
+    { "id": 5, "body": "Booommm !!!!", "commentid": 5 ,"likes": 3},
+    { "id": 6, "body": "Booommm !!!!", "commentid": 5 ,"likes": 3}
   ]
 }
