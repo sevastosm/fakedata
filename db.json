@@ -1,14 +1,46 @@
 {
-    "posts": [
-      { "id": 1, "title": "Post 1" },
-      { "id": 2, "title": "Post 2" },
-      { "id": 3, "title": "Post 3" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "profile": {
-      "name": "typicode"
+  "posts": [
+    {
+      "id": 1,
+      "UserID": "user1",
+      "title": "Post 1",
+      "text":
+        "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
+      "location": "Patra",
+      "dateadded": "2017/8/9",
+      "likes": 3,
+      "imageurl":"https://picsum.photos/200/300/?random"
+
+    },
+    {
+      "id": 2,
+      "UserID": "user3",
+      "title": "Post 2",
+      "text":
+        "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
+      "location": "Patra",
+      "dateadded": "2017/8/9",
+      "likes": 3,
+      "imageurl":"https://picsum.photos/200/300/?random"
+    },
+    {
+      "id": 3,
+      "UserID": "user2",
+      "title": "Post 3",
+      "text":
+        "In the shadow of the Acropolis and its ancient temples, hillside Plaka has a village feel, with narrow cobblestone",
+      "location": "Patra",
+      "dateadded": "2017/8/9",
+      "likes": 3,
+      "imageurl":"https://picsum.photos/200/300/?random"
     }
-  }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "commentsreplies": [
+    { "id": 1, "body": "some comment", "commentid": 1 },
+    { "id": 2, "body": "some comment", "commentid": 2 }
+  ]
+}
