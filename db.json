@@ -10,7 +10,12 @@
       "location": "Patra",
       "dateadded": "2017/8/9",
       "likes": 3,
-      "imageurl":"https://picsum.photos/200/200/?random"
+      "imageurl":"https://picsum.photos/200/200/?random",
+      "comments":[
+        { "id": 1, "body": "Bacon ipsum dolor amet brisket hamburger fatback bresaola ham", "postId": 1 ,"likes": 3},
+        { "id": 2, "body": "Bacon ipsum dolor amet capicola ham hock meatball", "postId": 1 ,"likes": 3}
+
+      ]
 
     },
     {
