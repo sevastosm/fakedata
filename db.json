@@ -95,5 +95,13 @@
     { "id": 4, "body": "Booommm !!!!", "commentid": 2 ,"likes": 3},
     { "id": 5, "body": "Booommm !!!!", "commentid": 5 ,"likes": 3},
     { "id": 6, "body": "Booommm !!!!", "commentid": 5 ,"likes": 3}
+  ],
+  "latestmembers":[
+    { "id": 1, "profileurl": "www.zzzz", "avatarurl": "www.zzzz","memberfullname":"lakis karabinalakis" },
+    { "id": 2, "profileurl": "www.zzzz22", "avatarurl": "www.zzzz","memberfullname":"lakis karabinalakis22" },
+    { "id": 4, "profileurl": "www.zzzz33", "avatarurl": "www.zzzz","memberfullname":"lakis karabinalakis333" },
+    { "id": 4, "profileurl": "www.zzzz44", "avatarurl": "www.zzzz","memberfullname":"lakis karabinalakis44" },
+    { "id": 5, "profileurl": "www.zzzz55", "avatarurl": "www.zzzz","memberfullname":"lakis karabinalakis55" }
   ]
+
 }
